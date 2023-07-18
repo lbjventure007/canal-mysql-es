@@ -1,0 +1,13 @@
+[2023-07-17T05:42:58.541+0000][1][gc] Using Concurrent Mark Sweep
+[2023-07-17T05:42:58.543+0000][1][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2023-07-17T05:42:58.935+0000][1][safepoint    ] Safepoint "EnableBiasedLocking", Time since last: 278410334 ns, Reaching safepoint: 2233500 ns, At safepoint: 480208 ns, Total: 2713708 ns
+[2023-07-17T05:42:58.988+0000][1][safepoint    ] Safepoint "RevokeBias", Time since last: 48179334 ns, Reaching safepoint: 3287041 ns, At safepoint: 1426209 ns, Total: 4713250 ns
+[2023-07-17T05:42:59.085+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 95152791 ns, Reaching safepoint: 346250 ns, At safepoint: 1647542 ns, Total: 1993792 ns
+[2023-07-17T05:42:59.621+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 535341167 ns, Reaching safepoint: 375708 ns, At safepoint: 116917 ns, Total: 492625 ns
+[2023-07-17T05:42:59.625+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 4018125 ns, Reaching safepoint: 38875 ns, At safepoint: 79167 ns, Total: 118042 ns
+[2023-07-17T05:42:59.782+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 156295916 ns, Reaching safepoint: 209917 ns, At safepoint: 127958 ns, Total: 337875 ns
+[2023-07-17T05:43:00.783+0000][1][safepoint    ] Safepoint "Cleanup", Time since last: 1000858584 ns, Reaching safepoint: 955792 ns, At safepoint: 19208 ns, Total: 975000 ns
+[2023-07-17T05:43:01.091+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 307161500 ns, Reaching safepoint: 417500 ns, At safepoint: 247542 ns, Total: 665042 ns
+[2023-07-17T05:43:01.247+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 155380292 ns, Reaching safepoint: 280750 ns, At safepoint: 281458 ns, Total: 562208 ns
+[2023-07-17T05:43:01.663+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 414727792 ns, Reaching safepoint: 301917 ns, At safepoint: 314000 ns, Total: 615917 ns
+[2023-07-17T05:43:02.238+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 574878667 ns, Reaching safepoint: 521041 ns, At safepoint: 352125 ns, Total: 873166 ns

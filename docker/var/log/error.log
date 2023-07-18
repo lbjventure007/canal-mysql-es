@@ -1,0 +1,877 @@
+2023-07-18T02:43:28.346763Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-07-18T02:43:28.367842Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-07-18T02:43:28.414373Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2023-07-18T02:43:28.416200Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2023-07-18T02:43:28.718755Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2023-07-18T02:43:28.838769Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2023-07-18T02:43:28.978616Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: e06b8ebe-2514-11ee-a29c-0242ac130002.
+2023-07-18T02:43:28.983620Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2023-07-18T02:43:30.888865Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:43:30.889110Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:43:30.910393Z 0 [Warning] CA certificate ca.pem is self signed.
+2023-07-18T02:43:31.159868Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2023-07-18T02:43:35.304474Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-07-18T02:43:35.315089Z 0 [Note] mysqld (mysqld 5.7.36-log) starting as process 141 ...
+2023-07-18T02:43:35.330826Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-07-18T02:43:35.362601Z 0 [Note] InnoDB: PUNCH HOLE support available
+2023-07-18T02:43:35.364202Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2023-07-18T02:43:35.364420Z 0 [Note] InnoDB: Uses event mutexes
+2023-07-18T02:43:35.364625Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2023-07-18T02:43:35.364841Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-07-18T02:43:35.365025Z 0 [Note] InnoDB: Using Linux native AIO
+2023-07-18T02:43:35.370103Z 0 [Note] InnoDB: Number of pools: 1
+2023-07-18T02:43:35.372314Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2023-07-18T02:43:35.374279Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2023-07-18T02:43:35.374672Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2023-07-18T02:43:35.374991Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2023-07-18T02:43:35.379055Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-07-18T02:43:35.435545Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-18T02:43:35.459382Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2023-07-18T02:43:35.483084Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-07-18T02:43:35.573297Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-18T02:43:35.575638Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-18T02:43:35.593624Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-07-18T02:43:35.601214Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-07-18T02:43:35.601553Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-07-18T02:43:35.607575Z 0 [Note] InnoDB: Waiting for purge to start
+2023-07-18T02:43:35.659291Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2749732
+2023-07-18T02:43:35.665013Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-07-18T02:43:35.666227Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2023-07-18T02:43:35.698342Z 0 [Note] InnoDB: Buffer pool(s) load completed at 230718  2:43:35
+2023-07-18T02:43:35.741266Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2023-07-18T02:43:35.741503Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2023-07-18T02:43:35.741654Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:43:35.741723Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:43:35.761297Z 0 [Warning] CA certificate ca.pem is self signed.
+2023-07-18T02:43:35.762760Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2023-07-18T02:43:35.767589Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-07-18T02:43:35.820229Z 0 [Note] Failed to start slave threads for channel ''
+2023-07-18T02:43:35.861845Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-07-18T02:43:35.864132Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.36-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server (GPL)
+2023-07-18T02:43:43.293508Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-07-18T02:43:43.293836Z 0 [Note] Shutting down slave threads
+2023-07-18T02:43:43.294131Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-07-18T02:43:43.294448Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-07-18T02:43:43.295563Z 0 [Note] Binlog end
+2023-07-18T02:43:43.300256Z 0 [Note] Shutting down plugin 'ngram'
+2023-07-18T02:43:43.300477Z 0 [Note] Shutting down plugin 'partition'
+2023-07-18T02:43:43.300657Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-07-18T02:43:43.300763Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-07-18T02:43:43.300841Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-07-18T02:43:43.301240Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-07-18T02:43:43.301341Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-07-18T02:43:43.301634Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-07-18T02:43:43.301760Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-07-18T02:43:43.301862Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-07-18T02:43:43.302000Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-07-18T02:43:43.302094Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-07-18T02:43:43.302263Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-07-18T02:43:43.302338Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-07-18T02:43:43.302412Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-07-18T02:43:43.302488Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-07-18T02:43:43.302563Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-07-18T02:43:43.302651Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-07-18T02:43:43.302724Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-07-18T02:43:43.302798Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-07-18T02:43:43.302871Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-07-18T02:43:43.302945Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-07-18T02:43:43.303073Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-07-18T02:43:43.303163Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-07-18T02:43:43.303251Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-07-18T02:43:43.303327Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-07-18T02:43:43.303403Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-07-18T02:43:43.303478Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-07-18T02:43:43.303554Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-07-18T02:43:43.303681Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-07-18T02:43:43.303755Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-07-18T02:43:43.303855Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-07-18T02:43:43.303944Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-07-18T02:43:43.304038Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-07-18T02:43:43.304145Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-07-18T02:43:43.304221Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-07-18T02:43:43.304325Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-07-18T02:43:43.304412Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-07-18T02:43:43.305424Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-07-18T02:43:43.306382Z 0 [Note] InnoDB: Starting shutdown...
+2023-07-18T02:43:43.407507Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2023-07-18T02:43:43.409657Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 230718  2:43:43
+2023-07-18T02:43:44.237606Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12664002
+2023-07-18T02:43:44.238295Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-18T02:43:44.238537Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-07-18T02:43:44.238652Z 0 [Note] Shutting down plugin 'CSV'
+2023-07-18T02:43:44.238741Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-07-18T02:43:44.238815Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-07-18T02:43:44.239254Z 0 [Note] Shutting down plugin 'binlog'
+2023-07-18T02:43:44.247139Z 0 [Note] mysqld: Shutdown complete
+
+2023-07-18T02:43:44.692774Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-07-18T02:43:44.702587Z 0 [Note] mysqld (mysqld 5.7.36-log) starting as process 1 ...
+2023-07-18T02:43:44.718219Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-07-18T02:43:44.753487Z 0 [Note] InnoDB: PUNCH HOLE support available
+2023-07-18T02:43:44.755076Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2023-07-18T02:43:44.755300Z 0 [Note] InnoDB: Uses event mutexes
+2023-07-18T02:43:44.755476Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2023-07-18T02:43:44.755665Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-07-18T02:43:44.755853Z 0 [Note] InnoDB: Using Linux native AIO
+2023-07-18T02:43:44.760834Z 0 [Note] InnoDB: Number of pools: 1
+2023-07-18T02:43:44.763030Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2023-07-18T02:43:44.765004Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2023-07-18T02:43:44.765319Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2023-07-18T02:43:44.765565Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2023-07-18T02:43:44.769624Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-07-18T02:43:44.826929Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-18T02:43:44.851974Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2023-07-18T02:43:44.895535Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-07-18T02:43:45.028020Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-18T02:43:45.031372Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-18T02:43:45.053819Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-07-18T02:43:45.060382Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-07-18T02:43:45.060619Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-07-18T02:43:45.077874Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 12664002
+2023-07-18T02:43:45.080020Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2023-07-18T02:43:45.089699Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-07-18T02:43:45.179370Z 0 [Note] InnoDB: Buffer pool(s) load completed at 230718  2:43:45
+2023-07-18T02:43:45.216030Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2023-07-18T02:43:45.216317Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2023-07-18T02:43:45.216490Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:43:45.216583Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:43:45.236079Z 0 [Warning] CA certificate ca.pem is self signed.
+2023-07-18T02:43:45.237556Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2023-07-18T02:43:45.239918Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2023-07-18T02:43:45.240956Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2023-07-18T02:43:45.245223Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-07-18T02:43:45.247594Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-07-18T02:43:45.330527Z 0 [Note] Failed to start slave threads for channel ''
+2023-07-18T02:43:45.375718Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-07-18T02:43:45.380302Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.36-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2023-07-18T02:44:29.447953Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-07-18T02:44:29.449365Z 0 [Note] Shutting down slave threads
+2023-07-18T02:44:29.449727Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-07-18T02:44:29.450390Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-07-18T02:44:29.451756Z 0 [Note] Binlog end
+2023-07-18T02:44:29.455961Z 0 [Note] Shutting down plugin 'ngram'
+2023-07-18T02:44:29.456190Z 0 [Note] Shutting down plugin 'partition'
+2023-07-18T02:44:29.456321Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-07-18T02:44:29.456413Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-07-18T02:44:29.456482Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-07-18T02:44:29.456836Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-07-18T02:44:29.456958Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-07-18T02:44:29.457214Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-07-18T02:44:29.457315Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-07-18T02:44:29.457379Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-07-18T02:44:29.457501Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-07-18T02:44:29.457598Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-07-18T02:44:29.457661Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-07-18T02:44:29.457807Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-07-18T02:44:29.457871Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-07-18T02:44:29.457934Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-07-18T02:44:29.457997Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-07-18T02:44:29.458061Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-07-18T02:44:29.458141Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-07-18T02:44:29.458210Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-07-18T02:44:29.458274Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-07-18T02:44:29.458334Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-07-18T02:44:29.458405Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-07-18T02:44:29.458467Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-07-18T02:44:29.458528Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-07-18T02:44:29.458588Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-07-18T02:44:29.458691Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-07-18T02:44:29.458751Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-07-18T02:44:29.458811Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-07-18T02:44:29.458871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-07-18T02:44:29.458950Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-07-18T02:44:29.459014Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-07-18T02:44:29.459093Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-07-18T02:44:29.459154Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-07-18T02:44:29.459214Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-07-18T02:44:29.459273Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-07-18T02:44:29.459333Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-07-18T02:44:29.459395Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-07-18T02:44:29.460272Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-07-18T02:44:29.461512Z 0 [Note] InnoDB: Starting shutdown...
+2023-07-18T02:44:29.562958Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2023-07-18T02:44:29.565464Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 230718  2:44:29
+2023-07-18T02:44:30.599167Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12664030
+2023-07-18T02:44:30.599917Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-18T02:44:30.600593Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-07-18T02:44:30.600827Z 0 [Note] Shutting down plugin 'CSV'
+2023-07-18T02:44:30.601022Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-07-18T02:44:30.601165Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-07-18T02:44:30.601743Z 0 [Note] Shutting down plugin 'binlog'
+2023-07-18T02:44:30.606388Z 0 [Note] mysqld: Shutdown complete
+
+2023-07-18T02:44:36.153509Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-07-18T02:44:36.163860Z 0 [Note] mysqld (mysqld 5.7.36-log) starting as process 1 ...
+2023-07-18T02:44:36.178881Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-07-18T02:44:36.218777Z 0 [Note] InnoDB: PUNCH HOLE support available
+2023-07-18T02:44:36.220416Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2023-07-18T02:44:36.220679Z 0 [Note] InnoDB: Uses event mutexes
+2023-07-18T02:44:36.220917Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2023-07-18T02:44:36.221160Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-07-18T02:44:36.221373Z 0 [Note] InnoDB: Using Linux native AIO
+2023-07-18T02:44:36.226487Z 0 [Note] InnoDB: Number of pools: 1
+2023-07-18T02:44:36.228607Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2023-07-18T02:44:36.230844Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2023-07-18T02:44:36.231147Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2023-07-18T02:44:36.231405Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2023-07-18T02:44:36.236141Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-07-18T02:44:36.300467Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-18T02:44:36.356054Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2023-07-18T02:44:36.433043Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-07-18T02:44:36.514561Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-18T02:44:36.517556Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-18T02:44:36.536468Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-07-18T02:44:36.543789Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-07-18T02:44:36.544098Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-07-18T02:44:36.551687Z 0 [Note] InnoDB: Waiting for purge to start
+2023-07-18T02:44:36.604026Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 12664030
+2023-07-18T02:44:36.606825Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2023-07-18T02:44:36.611311Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-07-18T02:44:36.648507Z 0 [Note] InnoDB: Buffer pool(s) load completed at 230718  2:44:36
+2023-07-18T02:44:36.679535Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2023-07-18T02:44:36.679803Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2023-07-18T02:44:36.680064Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:44:36.680273Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T02:44:36.699886Z 0 [Warning] CA certificate ca.pem is self signed.
+2023-07-18T02:44:36.701429Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2023-07-18T02:44:36.704657Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2023-07-18T02:44:36.705723Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2023-07-18T02:44:36.706774Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-07-18T02:44:36.708871Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-07-18T02:44:36.756455Z 0 [Note] Failed to start slave threads for channel ''
+2023-07-18T02:44:36.801833Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-07-18T02:44:36.804463Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.36-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2023-07-18T02:48:48.224308Z 3 [Note] Aborted connection 3 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T02:48:48.252568Z 4 [Note] Start binlog_dump to master_thread_id(4) slave_server(1779630086), pos(mysql-bin.000001, 4)
+2023-07-18T02:48:51.378875Z 4 [Note] Aborted connection 4 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Failed on my_net_write())
+2023-07-18T02:48:51.385930Z 5 [Note] Aborted connection 5 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T02:48:51.447472Z 6 [Note] Start binlog_dump to master_thread_id(6) slave_server(1779630086), pos(mysql-bin.000001, 4)
+2023-07-18T02:50:39.086342Z 7 [Note] Bad handshake
+2023-07-18T02:50:39.212123Z 8 [Note] Bad handshake
+2023-07-18T02:50:39.229308Z 9 [Note] Bad handshake
+2023-07-18T02:50:39.748959Z 10 [Note] Bad handshake
+2023-07-18T02:50:40.270108Z 11 [Note] Bad handshake
+2023-07-18T02:50:40.803274Z 12 [Note] Bad handshake
+2023-07-18T02:50:41.592615Z 13 [Note] Bad handshake
+2023-07-18T02:50:42.276074Z 14 [Note] Bad handshake
+2023-07-18T02:50:42.792972Z 15 [Note] Bad handshake
+2023-07-18T02:50:43.307470Z 16 [Note] Bad handshake
+2023-07-18T02:50:43.820249Z 17 [Note] Bad handshake
+2023-07-18T02:50:44.333126Z 18 [Note] Bad handshake
+2023-07-18T02:50:44.847549Z 19 [Note] Bad handshake
+2023-07-18T02:50:45.367184Z 20 [Note] Bad handshake
+2023-07-18T02:50:45.953943Z 21 [Note] Bad handshake
+2023-07-18T02:50:46.495895Z 22 [Note] Bad handshake
+2023-07-18T02:50:47.215202Z 23 [Note] Bad handshake
+2023-07-18T02:50:47.826944Z 24 [Note] Bad handshake
+2023-07-18T02:50:48.342121Z 25 [Note] Bad handshake
+2023-07-18T02:50:48.917610Z 26 [Note] Bad handshake
+2023-07-18T02:50:49.430626Z 27 [Note] Bad handshake
+2023-07-18T02:50:49.951752Z 28 [Note] Bad handshake
+2023-07-18T02:50:50.465933Z 29 [Note] Bad handshake
+2023-07-18T02:50:51.021151Z 30 [Note] Bad handshake
+2023-07-18T02:50:51.563562Z 31 [Note] Bad handshake
+2023-07-18T02:50:52.076244Z 32 [Note] Bad handshake
+2023-07-18T02:50:52.802057Z 33 [Note] Bad handshake
+2023-07-18T02:50:53.401421Z 34 [Note] Bad handshake
+2023-07-18T02:50:53.916403Z 35 [Note] Bad handshake
+2023-07-18T02:50:54.430230Z 36 [Note] Bad handshake
+2023-07-18T02:50:54.956597Z 37 [Note] Bad handshake
+2023-07-18T02:50:55.495929Z 38 [Note] Bad handshake
+2023-07-18T02:50:56.027199Z 39 [Note] Bad handshake
+2023-07-18T02:50:56.546595Z 40 [Note] Bad handshake
+2023-07-18T02:50:57.071579Z 41 [Note] Bad handshake
+2023-07-18T02:50:57.597841Z 42 [Note] Bad handshake
+2023-07-18T02:50:58.115560Z 43 [Note] Bad handshake
+2023-07-18T02:50:58.632225Z 44 [Note] Bad handshake
+2023-07-18T02:50:59.148175Z 45 [Note] Bad handshake
+2023-07-18T02:50:59.661891Z 46 [Note] Bad handshake
+2023-07-18T02:51:00.176392Z 47 [Note] Bad handshake
+2023-07-18T02:51:00.687078Z 48 [Note] Bad handshake
+2023-07-18T02:51:01.208781Z 49 [Note] Bad handshake
+2023-07-18T02:51:01.726586Z 50 [Note] Bad handshake
+2023-07-18T02:51:02.248477Z 51 [Note] Bad handshake
+2023-07-18T02:51:02.770308Z 52 [Note] Bad handshake
+2023-07-18T02:51:03.282922Z 53 [Note] Bad handshake
+2023-07-18T02:51:03.802872Z 54 [Note] Bad handshake
+2023-07-18T02:51:04.325756Z 55 [Note] Bad handshake
+2023-07-18T02:51:04.553036Z 56 [Note] Bad handshake
+2023-07-18T02:51:04.594395Z 57 [Note] Bad handshake
+2023-07-18T02:51:04.616189Z 58 [Note] Bad handshake
+2023-07-18T02:51:04.845925Z 59 [Note] Bad handshake
+2023-07-18T02:51:05.134474Z 60 [Note] Bad handshake
+2023-07-18T02:51:05.358741Z 61 [Note] Bad handshake
+2023-07-18T02:51:05.652942Z 62 [Note] Bad handshake
+2023-07-18T02:51:05.872216Z 63 [Note] Bad handshake
+2023-07-18T02:51:06.164212Z 64 [Note] Bad handshake
+2023-07-18T02:51:06.387045Z 65 [Note] Bad handshake
+2023-07-18T02:51:06.677526Z 66 [Note] Bad handshake
+2023-07-18T02:51:06.902538Z 67 [Note] Bad handshake
+2023-07-18T02:51:07.190263Z 68 [Note] Bad handshake
+2023-07-18T02:51:07.418664Z 69 [Note] Bad handshake
+2023-07-18T02:51:07.710377Z 70 [Note] Bad handshake
+2023-07-18T02:51:07.939803Z 71 [Note] Bad handshake
+2023-07-18T02:51:08.239078Z 72 [Note] Bad handshake
+2023-07-18T02:51:08.457272Z 73 [Note] Bad handshake
+2023-07-18T02:51:08.761771Z 74 [Note] Bad handshake
+2023-07-18T02:51:08.970696Z 75 [Note] Bad handshake
+2023-07-18T02:51:09.272060Z 76 [Note] Bad handshake
+2023-07-18T02:51:09.511537Z 77 [Note] Bad handshake
+2023-07-18T02:51:09.784122Z 78 [Note] Bad handshake
+2023-07-18T02:51:10.213227Z 79 [Note] Bad handshake
+2023-07-18T02:51:10.293130Z 80 [Note] Bad handshake
+2023-07-18T02:51:10.739267Z 81 [Note] Bad handshake
+2023-07-18T02:51:10.803425Z 82 [Note] Bad handshake
+2023-07-18T02:51:11.266683Z 83 [Note] Bad handshake
+2023-07-18T02:51:11.315881Z 84 [Note] Bad handshake
+2023-07-18T02:51:11.782930Z 85 [Note] Bad handshake
+2023-07-18T02:51:11.828199Z 86 [Note] Bad handshake
+2023-07-18T02:51:12.294681Z 87 [Note] Bad handshake
+2023-07-18T02:51:12.338685Z 88 [Note] Bad handshake
+2023-07-18T02:51:12.805430Z 89 [Note] Bad handshake
+2023-07-18T02:51:12.853893Z 90 [Note] Bad handshake
+2023-07-18T02:51:13.341232Z 91 [Note] Bad handshake
+2023-07-18T02:51:13.363578Z 92 [Note] Bad handshake
+2023-07-18T02:51:13.870020Z 93 [Note] Bad handshake
+2023-07-18T02:51:13.875401Z 94 [Note] Bad handshake
+2023-07-18T02:51:14.397070Z 95 [Note] Bad handshake
+2023-07-18T02:51:14.398201Z 96 [Note] Bad handshake
+2023-07-18T02:51:15.076422Z 98 [Note] Bad handshake
+2023-07-18T02:51:15.077106Z 97 [Note] Bad handshake
+2023-07-18T02:51:15.666070Z 100 [Note] Bad handshake
+2023-07-18T02:51:15.666738Z 99 [Note] Bad handshake
+2023-07-18T02:51:16.180769Z 101 [Note] Bad handshake
+2023-07-18T02:51:16.180897Z 102 [Note] Bad handshake
+2023-07-18T02:51:16.700928Z 104 [Note] Bad handshake
+2023-07-18T02:51:16.701110Z 103 [Note] Bad handshake
+2023-07-18T02:51:17.222018Z 105 [Note] Bad handshake
+2023-07-18T02:51:17.225702Z 106 [Note] Bad handshake
+2023-07-18T02:51:17.742320Z 108 [Note] Bad handshake
+2023-07-18T02:51:17.742557Z 107 [Note] Bad handshake
+2023-07-18T02:51:18.257123Z 110 [Note] Bad handshake
+2023-07-18T02:51:18.257270Z 109 [Note] Bad handshake
+2023-07-18T02:51:18.795901Z 112 [Note] Bad handshake
+2023-07-18T02:51:18.809550Z 111 [Note] Bad handshake
+2023-07-18T02:51:19.341820Z 114 [Note] Bad handshake
+2023-07-18T02:51:19.341810Z 113 [Note] Bad handshake
+2023-07-18T02:51:19.868625Z 116 [Note] Bad handshake
+2023-07-18T02:51:19.868873Z 115 [Note] Bad handshake
+2023-07-18T02:51:20.382844Z 118 [Note] Bad handshake
+2023-07-18T02:51:20.390831Z 117 [Note] Bad handshake
+2023-07-18T02:51:20.912578Z 119 [Note] Bad handshake
+2023-07-18T02:51:20.914738Z 120 [Note] Bad handshake
+2023-07-18T02:51:21.436399Z 122 [Note] Bad handshake
+2023-07-18T02:51:21.436636Z 121 [Note] Bad handshake
+2023-07-18T02:51:21.965965Z 123 [Note] Bad handshake
+2023-07-18T02:51:21.972328Z 124 [Note] Bad handshake
+2023-07-18T02:51:22.494317Z 126 [Note] Bad handshake
+2023-07-18T02:51:22.494617Z 125 [Note] Bad handshake
+2023-07-18T02:51:23.038389Z 128 [Note] Bad handshake
+2023-07-18T02:51:23.038556Z 127 [Note] Bad handshake
+2023-07-18T02:51:23.568426Z 130 [Note] Bad handshake
+2023-07-18T02:51:23.568692Z 129 [Note] Bad handshake
+2023-07-18T02:51:24.084800Z 132 [Note] Bad handshake
+2023-07-18T02:51:24.084940Z 131 [Note] Bad handshake
+2023-07-18T02:51:24.610901Z 133 [Note] Bad handshake
+2023-07-18T02:51:24.611131Z 134 [Note] Bad handshake
+2023-07-18T02:51:25.130587Z 135 [Note] Bad handshake
+2023-07-18T02:51:25.130662Z 136 [Note] Bad handshake
+2023-07-18T02:51:25.650019Z 138 [Note] Bad handshake
+2023-07-18T02:51:25.650026Z 137 [Note] Bad handshake
+2023-07-18T02:51:26.169445Z 139 [Note] Bad handshake
+2023-07-18T02:51:26.169755Z 140 [Note] Bad handshake
+2023-07-18T02:51:26.683540Z 141 [Note] Bad handshake
+2023-07-18T02:51:26.685850Z 142 [Note] Bad handshake
+2023-07-18T02:51:27.199199Z 144 [Note] Bad handshake
+2023-07-18T02:51:27.199200Z 143 [Note] Bad handshake
+2023-07-18T02:51:27.716109Z 146 [Note] Bad handshake
+2023-07-18T02:51:27.716287Z 145 [Note] Bad handshake
+2023-07-18T02:51:28.245109Z 148 [Note] Bad handshake
+2023-07-18T02:51:28.248678Z 147 [Note] Bad handshake
+2023-07-18T02:51:28.770170Z 150 [Note] Bad handshake
+2023-07-18T02:51:28.770170Z 149 [Note] Bad handshake
+2023-07-18T02:51:29.286538Z 152 [Note] Bad handshake
+2023-07-18T02:51:29.286788Z 151 [Note] Bad handshake
+2023-07-18T02:51:29.801005Z 154 [Note] Bad handshake
+2023-07-18T02:51:29.801345Z 153 [Note] Bad handshake
+2023-07-18T02:51:30.315476Z 155 [Note] Bad handshake
+2023-07-18T02:51:30.317322Z 156 [Note] Bad handshake
+2023-07-18T02:51:30.830238Z 158 [Note] Bad handshake
+2023-07-18T02:51:30.830235Z 157 [Note] Bad handshake
+2023-07-18T02:51:31.347134Z 159 [Note] Bad handshake
+2023-07-18T02:51:31.347676Z 160 [Note] Bad handshake
+2023-07-18T02:51:31.867339Z 161 [Note] Bad handshake
+2023-07-18T02:51:31.867328Z 162 [Note] Bad handshake
+2023-07-18T02:51:32.383825Z 164 [Note] Bad handshake
+2023-07-18T02:51:32.384080Z 163 [Note] Bad handshake
+2023-07-18T02:51:32.907439Z 165 [Note] Bad handshake
+2023-07-18T02:51:32.908272Z 166 [Note] Bad handshake
+2023-07-18T02:51:33.419177Z 168 [Note] Bad handshake
+2023-07-18T02:51:33.419331Z 167 [Note] Bad handshake
+2023-07-18T02:51:33.927532Z 169 [Note] Bad handshake
+2023-07-18T02:51:33.931377Z 170 [Note] Bad handshake
+2023-07-18T02:51:34.451680Z 171 [Note] Bad handshake
+2023-07-18T02:51:34.451686Z 172 [Note] Bad handshake
+2023-07-18T02:51:34.963217Z 174 [Note] Bad handshake
+2023-07-18T02:51:34.963363Z 173 [Note] Bad handshake
+2023-07-18T02:51:35.472921Z 176 [Note] Bad handshake
+2023-07-18T02:51:35.473095Z 175 [Note] Bad handshake
+2023-07-18T02:51:35.991870Z 178 [Note] Bad handshake
+2023-07-18T02:51:35.992188Z 177 [Note] Bad handshake
+2023-07-18T02:51:36.527824Z 179 [Note] Bad handshake
+2023-07-18T02:51:36.527824Z 180 [Note] Bad handshake
+2023-07-18T02:51:37.050304Z 181 [Note] Bad handshake
+2023-07-18T02:51:37.050536Z 182 [Note] Bad handshake
+2023-07-18T02:51:37.582466Z 184 [Note] Bad handshake
+2023-07-18T02:51:37.582713Z 183 [Note] Bad handshake
+2023-07-18T02:51:38.094244Z 185 [Note] Bad handshake
+2023-07-18T02:51:38.094948Z 186 [Note] Bad handshake
+2023-07-18T02:51:38.610364Z 187 [Note] Bad handshake
+2023-07-18T02:51:38.612178Z 188 [Note] Bad handshake
+2023-07-18T02:51:39.125285Z 190 [Note] Bad handshake
+2023-07-18T02:51:39.125285Z 189 [Note] Bad handshake
+2023-07-18T02:51:39.640237Z 192 [Note] Bad handshake
+2023-07-18T02:51:39.641249Z 191 [Note] Bad handshake
+2023-07-18T02:51:40.158190Z 194 [Note] Bad handshake
+2023-07-18T02:51:40.159359Z 193 [Note] Bad handshake
+2023-07-18T02:51:40.672835Z 196 [Note] Bad handshake
+2023-07-18T02:51:40.673144Z 195 [Note] Bad handshake
+2023-07-18T02:51:41.188567Z 198 [Note] Bad handshake
+2023-07-18T02:51:41.188567Z 197 [Note] Bad handshake
+2023-07-18T02:51:41.708945Z 199 [Note] Bad handshake
+2023-07-18T02:51:41.709115Z 200 [Note] Bad handshake
+2023-07-18T02:51:42.221060Z 202 [Note] Bad handshake
+2023-07-18T02:51:42.221183Z 201 [Note] Bad handshake
+2023-07-18T02:51:42.731732Z 204 [Note] Bad handshake
+2023-07-18T02:51:42.731827Z 203 [Note] Bad handshake
+2023-07-18T02:51:43.241177Z 205 [Note] Bad handshake
+2023-07-18T02:51:43.241177Z 206 [Note] Bad handshake
+2023-07-18T02:51:43.755201Z 208 [Note] Bad handshake
+2023-07-18T02:51:43.755319Z 207 [Note] Bad handshake
+2023-07-18T02:51:44.154815Z 209 [Note] Bad handshake
+2023-07-18T02:51:44.176626Z 210 [Note] Bad handshake
+2023-07-18T02:51:44.196038Z 211 [Note] Bad handshake
+2023-07-18T02:51:44.267774Z 212 [Note] Bad handshake
+2023-07-18T02:51:44.270548Z 213 [Note] Bad handshake
+2023-07-18T02:51:44.729340Z 214 [Note] Bad handshake
+2023-07-18T02:51:44.781142Z 215 [Note] Bad handshake
+2023-07-18T02:51:44.786907Z 216 [Note] Bad handshake
+2023-07-18T02:51:45.238655Z 217 [Note] Bad handshake
+2023-07-18T02:51:45.289428Z 218 [Note] Bad handshake
+2023-07-18T02:51:45.299222Z 219 [Note] Bad handshake
+2023-07-18T02:51:45.747670Z 220 [Note] Bad handshake
+2023-07-18T02:51:45.798467Z 221 [Note] Bad handshake
+2023-07-18T02:51:45.805180Z 222 [Note] Bad handshake
+2023-07-18T02:51:46.259386Z 223 [Note] Bad handshake
+2023-07-18T02:51:46.309470Z 224 [Note] Bad handshake
+2023-07-18T02:51:46.314034Z 225 [Note] Bad handshake
+2023-07-18T02:51:46.777456Z 226 [Note] Bad handshake
+2023-07-18T02:51:46.820340Z 227 [Note] Bad handshake
+2023-07-18T02:51:46.822840Z 228 [Note] Bad handshake
+2023-07-18T02:51:47.291727Z 229 [Note] Bad handshake
+2023-07-18T02:51:47.331617Z 230 [Note] Bad handshake
+2023-07-18T02:51:47.333480Z 231 [Note] Bad handshake
+2023-07-18T02:51:47.803998Z 232 [Note] Bad handshake
+2023-07-18T02:51:47.843905Z 233 [Note] Bad handshake
+2023-07-18T02:51:47.843905Z 234 [Note] Bad handshake
+2023-07-18T02:51:48.313716Z 235 [Note] Bad handshake
+2023-07-18T02:51:48.354463Z 236 [Note] Bad handshake
+2023-07-18T02:51:48.354602Z 237 [Note] Bad handshake
+2023-07-18T02:51:48.830804Z 238 [Note] Bad handshake
+2023-07-18T02:51:48.869049Z 239 [Note] Bad handshake
+2023-07-18T02:51:48.869049Z 240 [Note] Bad handshake
+2023-07-18T02:51:49.350798Z 241 [Note] Bad handshake
+2023-07-18T02:51:49.386285Z 242 [Note] Bad handshake
+2023-07-18T02:51:49.386465Z 243 [Note] Bad handshake
+2023-07-18T02:51:49.863310Z 244 [Note] Bad handshake
+2023-07-18T02:51:49.896759Z 245 [Note] Bad handshake
+2023-07-18T02:51:49.902157Z 246 [Note] Bad handshake
+2023-07-18T02:51:50.384417Z 247 [Note] Bad handshake
+2023-07-18T02:51:50.410308Z 249 [Note] Bad handshake
+2023-07-18T02:51:50.410308Z 248 [Note] Bad handshake
+2023-07-18T02:51:50.899044Z 250 [Note] Bad handshake
+2023-07-18T02:51:50.917495Z 251 [Note] Bad handshake
+2023-07-18T02:51:50.927622Z 252 [Note] Bad handshake
+2023-07-18T02:51:51.410335Z 253 [Note] Bad handshake
+2023-07-18T02:51:51.425615Z 254 [Note] Bad handshake
+2023-07-18T02:51:51.435034Z 255 [Note] Bad handshake
+2023-07-18T02:51:51.920886Z 256 [Note] Bad handshake
+2023-07-18T02:51:51.937615Z 257 [Note] Bad handshake
+2023-07-18T02:51:51.944680Z 258 [Note] Bad handshake
+2023-07-18T02:51:52.442572Z 259 [Note] Bad handshake
+2023-07-18T02:51:52.453249Z 260 [Note] Bad handshake
+2023-07-18T02:51:52.456758Z 261 [Note] Bad handshake
+2023-07-18T02:51:52.977483Z 262 [Note] Bad handshake
+2023-07-18T02:51:52.977729Z 263 [Note] Bad handshake
+2023-07-18T02:51:52.981214Z 264 [Note] Bad handshake
+2023-07-18T02:51:53.504812Z 265 [Note] Bad handshake
+2023-07-18T02:51:53.504812Z 266 [Note] Bad handshake
+2023-07-18T02:51:53.504954Z 267 [Note] Bad handshake
+2023-07-18T02:51:54.022624Z 268 [Note] Bad handshake
+2023-07-18T02:51:54.022878Z 269 [Note] Bad handshake
+2023-07-18T02:51:54.023644Z 270 [Note] Bad handshake
+2023-07-18T02:51:54.539375Z 271 [Note] Bad handshake
+2023-07-18T02:51:54.540213Z 272 [Note] Bad handshake
+2023-07-18T02:51:54.542361Z 273 [Note] Bad handshake
+2023-07-18T02:51:55.054480Z 274 [Note] Bad handshake
+2023-07-18T02:51:55.055332Z 275 [Note] Bad handshake
+2023-07-18T02:51:55.063616Z 276 [Note] Bad handshake
+2023-07-18T02:51:55.573057Z 277 [Note] Bad handshake
+2023-07-18T02:51:55.573246Z 278 [Note] Bad handshake
+2023-07-18T02:51:55.575135Z 279 [Note] Bad handshake
+2023-07-18T02:51:56.095412Z 280 [Note] Bad handshake
+2023-07-18T02:51:56.095437Z 281 [Note] Bad handshake
+2023-07-18T02:51:56.099592Z 282 [Note] Bad handshake
+2023-07-18T02:51:56.607490Z 284 [Note] Bad handshake
+2023-07-18T02:51:56.607665Z 283 [Note] Bad handshake
+2023-07-18T02:51:56.611174Z 285 [Note] Bad handshake
+2023-07-18T02:51:57.127722Z 286 [Note] Bad handshake
+2023-07-18T02:51:57.127721Z 287 [Note] Bad handshake
+2023-07-18T02:51:57.127898Z 288 [Note] Bad handshake
+2023-07-18T02:51:57.673785Z 290 [Note] Bad handshake
+2023-07-18T02:51:57.674021Z 291 [Note] Bad handshake
+2023-07-18T02:51:57.680145Z 289 [Note] Bad handshake
+2023-07-18T02:51:58.200126Z 293 [Note] Bad handshake
+2023-07-18T02:51:58.200126Z 292 [Note] Bad handshake
+2023-07-18T02:51:58.200505Z 294 [Note] Bad handshake
+2023-07-18T02:51:58.718093Z 295 [Note] Bad handshake
+2023-07-18T02:51:58.718546Z 297 [Note] Bad handshake
+2023-07-18T02:51:58.718742Z 296 [Note] Bad handshake
+2023-07-18T02:51:59.230787Z 298 [Note] Bad handshake
+2023-07-18T02:51:59.231130Z 300 [Note] Bad handshake
+2023-07-18T02:51:59.232215Z 299 [Note] Bad handshake
+2023-07-18T02:51:59.744467Z 303 [Note] Bad handshake
+2023-07-18T02:51:59.744467Z 302 [Note] Bad handshake
+2023-07-18T02:51:59.744467Z 301 [Note] Bad handshake
+2023-07-18T02:52:00.253933Z 305 [Note] Bad handshake
+2023-07-18T02:52:00.254631Z 306 [Note] Bad handshake
+2023-07-18T02:52:00.256639Z 304 [Note] Bad handshake
+2023-07-18T02:52:00.765384Z 309 [Note] Bad handshake
+2023-07-18T02:52:00.765384Z 307 [Note] Bad handshake
+2023-07-18T02:52:00.765384Z 308 [Note] Bad handshake
+2023-07-18T02:52:01.279226Z 312 [Note] Bad handshake
+2023-07-18T02:52:01.279382Z 311 [Note] Bad handshake
+2023-07-18T02:52:01.279474Z 310 [Note] Bad handshake
+2023-07-18T02:52:01.789688Z 313 [Note] Bad handshake
+2023-07-18T02:52:01.791969Z 315 [Note] Bad handshake
+2023-07-18T02:52:01.794583Z 314 [Note] Bad handshake
+2023-07-18T02:52:02.314477Z 318 [Note] Bad handshake
+2023-07-18T02:52:02.314592Z 317 [Note] Bad handshake
+2023-07-18T02:52:02.316509Z 316 [Note] Bad handshake
+2023-07-18T02:52:02.838612Z 321 [Note] Bad handshake
+2023-07-18T02:52:02.838879Z 320 [Note] Bad handshake
+2023-07-18T02:52:02.839076Z 319 [Note] Bad handshake
+2023-07-18T02:52:03.350728Z 323 [Note] Bad handshake
+2023-07-18T02:52:03.350892Z 324 [Note] Bad handshake
+2023-07-18T02:52:03.351168Z 322 [Note] Bad handshake
+2023-07-18T02:52:03.865033Z 326 [Note] Bad handshake
+2023-07-18T02:52:03.865033Z 327 [Note] Bad handshake
+2023-07-18T02:52:03.865288Z 325 [Note] Bad handshake
+2023-07-18T02:52:04.392677Z 329 [Note] Bad handshake
+2023-07-18T02:52:04.392735Z 328 [Note] Bad handshake
+2023-07-18T02:52:04.392929Z 330 [Note] Bad handshake
+2023-07-18T02:52:04.905985Z 333 [Note] Bad handshake
+2023-07-18T02:52:04.906273Z 331 [Note] Bad handshake
+2023-07-18T02:52:04.906378Z 332 [Note] Bad handshake
+2023-07-18T02:52:05.418056Z 335 [Note] Bad handshake
+2023-07-18T02:52:05.418056Z 334 [Note] Bad handshake
+2023-07-18T02:52:05.418199Z 336 [Note] Bad handshake
+2023-07-18T02:52:05.932533Z 337 [Note] Bad handshake
+2023-07-18T02:52:05.933569Z 338 [Note] Bad handshake
+2023-07-18T02:52:05.933834Z 339 [Note] Bad handshake
+2023-07-18T02:52:06.453909Z 341 [Note] Bad handshake
+2023-07-18T02:52:06.454101Z 340 [Note] Bad handshake
+2023-07-18T02:52:06.459108Z 342 [Note] Bad handshake
+2023-07-18T02:52:06.974663Z 343 [Note] Bad handshake
+2023-07-18T02:52:06.976398Z 344 [Note] Bad handshake
+2023-07-18T02:52:06.981463Z 345 [Note] Bad handshake
+2023-07-18T02:52:07.510478Z 348 [Note] Bad handshake
+2023-07-18T02:52:07.510478Z 346 [Note] Bad handshake
+2023-07-18T02:52:07.510680Z 347 [Note] Bad handshake
+2023-07-18T02:52:08.256286Z 350 [Note] Bad handshake
+2023-07-18T02:52:08.256560Z 351 [Note] Bad handshake
+2023-07-18T02:52:08.256405Z 349 [Note] Bad handshake
+2023-07-18T02:52:08.814916Z 353 [Note] Bad handshake
+2023-07-18T02:52:08.814916Z 352 [Note] Bad handshake
+2023-07-18T02:52:08.819382Z 354 [Note] Bad handshake
+2023-07-18T02:52:09.337251Z 355 [Note] Bad handshake
+2023-07-18T02:52:09.343977Z 357 [Note] Bad handshake
+2023-07-18T02:52:09.345798Z 356 [Note] Bad handshake
+2023-07-18T02:52:09.854610Z 359 [Note] Bad handshake
+2023-07-18T02:52:09.854801Z 358 [Note] Bad handshake
+2023-07-18T02:52:09.859858Z 360 [Note] Bad handshake
+2023-07-18T02:52:10.363587Z 362 [Note] Bad handshake
+2023-07-18T02:52:10.363722Z 361 [Note] Bad handshake
+2023-07-18T02:52:10.367908Z 363 [Note] Bad handshake
+2023-07-18T02:52:10.873409Z 364 [Note] Bad handshake
+2023-07-18T02:52:10.873752Z 365 [Note] Bad handshake
+2023-07-18T02:52:10.876594Z 366 [Note] Bad handshake
+2023-07-18T02:52:11.386375Z 367 [Note] Bad handshake
+2023-07-18T02:52:11.391495Z 369 [Note] Bad handshake
+2023-07-18T02:52:11.391688Z 368 [Note] Bad handshake
+2023-07-18T02:52:11.899470Z 370 [Note] Bad handshake
+2023-07-18T02:52:11.899559Z 371 [Note] Bad handshake
+2023-07-18T02:52:11.901684Z 372 [Note] Bad handshake
+2023-07-18T02:52:12.408699Z 374 [Note] Bad handshake
+2023-07-18T02:52:12.408699Z 373 [Note] Bad handshake
+2023-07-18T02:52:12.411230Z 375 [Note] Bad handshake
+2023-07-18T02:52:12.922287Z 378 [Note] Bad handshake
+2023-07-18T02:52:12.922521Z 377 [Note] Bad handshake
+2023-07-18T02:52:12.922647Z 376 [Note] Bad handshake
+2023-07-18T02:52:13.436308Z 380 [Note] Bad handshake
+2023-07-18T02:52:13.436307Z 381 [Note] Bad handshake
+2023-07-18T02:52:13.436498Z 379 [Note] Bad handshake
+2023-07-18T02:52:13.963946Z 383 [Note] Bad handshake
+2023-07-18T02:52:13.963946Z 382 [Note] Bad handshake
+2023-07-18T02:52:13.964249Z 384 [Note] Bad handshake
+2023-07-18T02:52:14.478093Z 386 [Note] Bad handshake
+2023-07-18T02:52:14.478199Z 385 [Note] Bad handshake
+2023-07-18T02:52:14.478093Z 387 [Note] Bad handshake
+2023-07-18T02:52:14.987614Z 390 [Note] Bad handshake
+2023-07-18T02:52:14.987614Z 389 [Note] Bad handshake
+2023-07-18T02:52:14.993346Z 388 [Note] Bad handshake
+2023-07-18T02:52:15.517904Z 392 [Note] Bad handshake
+2023-07-18T02:52:15.517913Z 393 [Note] Bad handshake
+2023-07-18T02:52:15.518131Z 391 [Note] Bad handshake
+2023-07-18T02:52:16.076615Z 395 [Note] Bad handshake
+2023-07-18T02:52:16.076900Z 396 [Note] Bad handshake
+2023-07-18T02:52:16.076964Z 394 [Note] Bad handshake
+2023-07-18T02:52:16.628293Z 398 [Note] Bad handshake
+2023-07-18T02:52:16.628293Z 399 [Note] Bad handshake
+2023-07-18T02:52:16.628391Z 397 [Note] Bad handshake
+2023-07-18T02:52:17.154310Z 401 [Note] Bad handshake
+2023-07-18T02:52:17.154458Z 400 [Note] Bad handshake
+2023-07-18T02:52:17.154545Z 402 [Note] Bad handshake
+2023-07-18T02:52:17.677357Z 405 [Note] Bad handshake
+2023-07-18T02:52:17.677479Z 403 [Note] Bad handshake
+2023-07-18T02:52:17.677549Z 404 [Note] Bad handshake
+2023-07-18T02:52:18.223116Z 408 [Note] Bad handshake
+2023-07-18T02:52:18.225543Z 407 [Note] Bad handshake
+2023-07-18T02:52:18.231938Z 406 [Note] Bad handshake
+2023-07-18T02:52:18.948624Z 411 [Note] Bad handshake
+2023-07-18T02:52:18.948739Z 409 [Note] Bad handshake
+2023-07-18T02:52:18.949026Z 410 [Note] Bad handshake
+2023-07-18T02:52:45.391736Z 412 [Note] Bad handshake
+2023-07-18T02:52:45.582805Z 413 [Note] Bad handshake
+2023-07-18T02:52:45.617011Z 414 [Note] Bad handshake
+2023-07-18T02:52:46.142316Z 415 [Note] Bad handshake
+2023-07-18T02:52:46.653867Z 416 [Note] Bad handshake
+2023-07-18T02:52:47.181239Z 417 [Note] Bad handshake
+2023-07-18T02:52:47.965133Z 418 [Note] Bad handshake
+2023-07-18T02:52:48.599511Z 419 [Note] Bad handshake
+2023-07-18T02:52:49.124269Z 420 [Note] Bad handshake
+2023-07-18T02:52:49.644616Z 421 [Note] Bad handshake
+2023-07-18T02:52:50.169747Z 422 [Note] Bad handshake
+2023-07-18T02:52:50.705059Z 423 [Note] Bad handshake
+2023-07-18T02:52:51.221662Z 424 [Note] Bad handshake
+2023-07-18T02:52:51.868984Z 425 [Note] Bad handshake
+2023-07-18T02:52:52.419557Z 426 [Note] Bad handshake
+2023-07-18T02:52:53.371025Z 427 [Note] Bad handshake
+2023-07-18T02:52:53.997305Z 428 [Note] Bad handshake
+2023-07-18T02:52:54.520809Z 429 [Note] Bad handshake
+2023-07-18T02:52:55.117035Z 430 [Note] Bad handshake
+2023-07-18T02:52:55.655170Z 431 [Note] Bad handshake
+2023-07-18T02:52:56.170114Z 432 [Note] Bad handshake
+2023-07-18T02:52:56.686483Z 433 [Note] Bad handshake
+2023-07-18T02:52:57.210251Z 434 [Note] Bad handshake
+2023-07-18T02:52:57.727521Z 435 [Note] Bad handshake
+2023-07-18T02:52:58.245383Z 436 [Note] Bad handshake
+2023-07-18T02:59:52.065744Z 2 [Note] Aborted connection 2 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T02:59:52.451328Z 441 [Note] Aborted connection 441 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T02:59:54.685425Z 443 [Note] Aborted connection 443 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T02:59:54.714783Z 444 [Note] Start binlog_dump to master_thread_id(444) slave_server(1779630086), pos(mysql-bin.000001, 4)
+2023-07-18T02:59:55.146596Z 444 [Note] Aborted connection 444 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Failed on my_net_write())
+2023-07-18T02:59:55.162581Z 445 [Note] Aborted connection 445 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T02:59:55.200776Z 446 [Note] Start binlog_dump to master_thread_id(446) slave_server(1779630086), pos(mysql-bin.000001, 4)
+2023-07-18T03:00:30.087164Z 442 [Note] Aborted connection 442 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T03:00:30.759906Z 447 [Note] Aborted connection 447 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T03:00:36.991784Z 449 [Note] Aborted connection 449 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T03:00:36.997010Z 450 [Note] Start binlog_dump to master_thread_id(450) slave_server(1779630086), pos(mysql-bin.000001, 4)
+2023-07-18T03:00:37.104369Z 450 [Note] Aborted connection 450 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Failed on my_net_write())
+2023-07-18T03:00:37.107508Z 451 [Note] Aborted connection 451 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T03:00:37.119280Z 452 [Note] Start binlog_dump to master_thread_id(452) slave_server(1779630086), pos(mysql-bin.000001, 4)
+2023-07-18T03:02:46.470172Z 453 [Note] Bad handshake
+2023-07-18T03:02:46.592164Z 454 [Note] Bad handshake
+2023-07-18T03:02:46.620307Z 455 [Note] Bad handshake
+2023-07-18T03:02:47.148385Z 456 [Note] Bad handshake
+2023-07-18T03:02:47.666193Z 457 [Note] Bad handshake
+2023-07-18T03:02:48.190657Z 458 [Note] Bad handshake
+2023-07-18T03:02:48.851584Z 459 [Note] Bad handshake
+2023-07-18T03:02:49.435081Z 460 [Note] Bad handshake
+2023-07-18T03:02:49.949795Z 461 [Note] Bad handshake
+2023-07-18T03:02:50.477560Z 462 [Note] Bad handshake
+2023-07-18T03:02:51.003676Z 463 [Note] Bad handshake
+2023-07-18T03:02:51.525416Z 464 [Note] Bad handshake
+2023-07-18T03:02:52.042425Z 465 [Note] Bad handshake
+2023-07-18T03:02:52.637517Z 466 [Note] Bad handshake
+2023-07-18T03:02:53.160997Z 467 [Note] Bad handshake
+2023-07-18T03:02:54.140742Z 468 [Note] Bad handshake
+2023-07-18T03:02:54.724760Z 469 [Note] Bad handshake
+2023-07-18T03:02:55.245504Z 470 [Note] Bad handshake
+2023-07-18T03:02:55.819470Z 471 [Note] Bad handshake
+2023-07-18T03:02:55.875994Z 472 [Note] Bad handshake
+2023-07-18T03:02:55.923680Z 473 [Note] Bad handshake
+2023-07-18T03:02:55.935062Z 474 [Note] Bad handshake
+2023-07-18T03:02:56.342804Z 475 [Note] Bad handshake
+2023-07-18T03:02:56.447183Z 476 [Note] Bad handshake
+2023-07-18T03:02:56.854161Z 477 [Note] Bad handshake
+2023-07-18T03:02:56.964063Z 478 [Note] Bad handshake
+2023-07-18T03:02:57.380147Z 479 [Note] Bad handshake
+2023-07-18T03:02:57.476720Z 480 [Note] Bad handshake
+2023-07-18T03:02:57.902033Z 481 [Note] Bad handshake
+2023-07-18T03:02:57.989257Z 482 [Note] Bad handshake
+2023-07-18T03:02:58.417263Z 483 [Note] Bad handshake
+2023-07-18T03:02:58.504135Z 484 [Note] Bad handshake
+2023-07-18T03:02:58.947421Z 485 [Note] Bad handshake
+2023-07-18T03:02:59.018629Z 486 [Note] Bad handshake
+2023-07-18T03:03:50.079649Z 487 [Note] Bad handshake
+2023-07-18T03:03:50.198110Z 488 [Note] Bad handshake
+2023-07-18T03:03:50.207478Z 489 [Note] Bad handshake
+2023-07-18T03:03:50.728121Z 490 [Note] Bad handshake
+2023-07-18T03:03:51.247474Z 491 [Note] Bad handshake
+2023-07-18T03:08:35.143065Z 493 [Note] Bad handshake
+2023-07-18T03:08:35.264062Z 494 [Note] Bad handshake
+2023-07-18T03:08:35.274418Z 495 [Note] Bad handshake
+2023-07-18T03:08:35.810956Z 496 [Note] Bad handshake
+2023-07-18T03:08:36.332636Z 497 [Note] Bad handshake
+2023-07-18T03:18:49.574567Z 498 [Note] Bad handshake
+2023-07-18T03:18:49.661417Z 499 [Note] Bad handshake
+2023-07-18T03:18:49.675308Z 500 [Note] Bad handshake
+2023-07-18T03:18:50.202717Z 501 [Note] Bad handshake
+2023-07-18T03:18:50.728576Z 502 [Note] Bad handshake
+2023-07-18T03:18:51.241356Z 503 [Note] Bad handshake
+2023-07-18T03:18:51.762707Z 504 [Note] Bad handshake
+2023-07-18T03:18:52.295946Z 505 [Note] Bad handshake
+2023-07-18T03:18:52.818298Z 506 [Note] Bad handshake
+2023-07-18T03:18:53.342740Z 507 [Note] Bad handshake
+2023-07-18T03:18:53.874536Z 508 [Note] Bad handshake
+2023-07-18T03:18:54.400746Z 509 [Note] Bad handshake
+2023-07-18T03:18:54.930168Z 510 [Note] Bad handshake
+2023-07-18T03:18:55.446807Z 511 [Note] Bad handshake
+2023-07-18T03:18:55.966950Z 512 [Note] Bad handshake
+2023-07-18T03:18:56.502128Z 513 [Note] Bad handshake
+2023-07-18T03:18:57.020510Z 514 [Note] Bad handshake
+2023-07-18T03:18:57.544902Z 515 [Note] Bad handshake
+2023-07-18T03:18:58.072588Z 516 [Note] Bad handshake
+2023-07-18T03:18:58.596381Z 517 [Note] Bad handshake
+2023-07-18T03:21:15.096320Z 518 [Note] Access denied for user 'root'@'172.19.0.7' (using password: YES)
+2023-07-18T03:21:15.300838Z 519 [Note] Access denied for user 'root'@'172.19.0.7' (using password: YES)
+2023-07-18T03:21:15.320070Z 520 [Note] Access denied for user 'root'@'172.19.0.7' (using password: YES)
+2023-07-18T03:21:15.853174Z 521 [Note] Access denied for user 'root'@'172.19.0.7' (using password: YES)
+2023-07-18T03:21:16.384002Z 522 [Note] Access denied for user 'root'@'172.19.0.7' (using password: YES)
+2023-07-18T03:21:16.921164Z 523 [Note] Access denied for user 'root'@'172.19.0.7' (using password: YES)
+2023-07-18T06:25:38.228362Z 530 [Note] Aborted connection 530 to db: 'example' user: 'canal' host: '172.19.0.7' (Got an error reading communication packets)
+2023-07-18T06:29:49.271323Z 531 [Note] Aborted connection 531 to db: 'example' user: 'canal' host: '172.19.0.7' (Got an error reading communication packets)
+2023-07-18T06:29:49.880486Z 448 [Note] Aborted connection 448 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T06:29:50.207587Z 532 [Note] Aborted connection 532 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T06:29:51.149699Z 0 [Note] Giving 4 client threads a chance to die gracefully
+2023-07-18T06:29:51.150179Z 0 [Note] Shutting down slave threads
+2023-07-18T06:29:53.151281Z 0 [Note] Forcefully disconnecting 4 remaining clients
+2023-07-18T06:29:53.152284Z 0 [Warning] mysqld: Forcing close of thread 492  user: 'root'
+
+2023-07-18T06:29:53.153090Z 0 [Warning] mysqld: Forcing close of thread 438  user: 'root'
+
+2023-07-18T06:29:53.154069Z 0 [Warning] mysqld: Forcing close of thread 439  user: 'root'
+
+2023-07-18T06:29:53.155010Z 0 [Warning] mysqld: Forcing close of thread 440  user: 'root'
+
+2023-07-18T06:29:53.159303Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-07-18T06:29:53.165059Z 0 [Note] Binlog end
+2023-07-18T06:29:53.190351Z 0 [Note] Shutting down plugin 'ngram'
+2023-07-18T06:29:53.190790Z 0 [Note] Shutting down plugin 'partition'
+2023-07-18T06:29:53.191076Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-07-18T06:29:53.191296Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-07-18T06:29:53.191454Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-07-18T06:29:53.192231Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-07-18T06:29:53.192466Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-07-18T06:29:53.193011Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-07-18T06:29:53.193275Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-07-18T06:29:53.193420Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-07-18T06:29:53.193588Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-07-18T06:29:53.193725Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-07-18T06:29:53.193883Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-07-18T06:29:53.194093Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-07-18T06:29:53.194244Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-07-18T06:29:53.194398Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-07-18T06:29:53.194551Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-07-18T06:29:53.194702Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-07-18T06:29:53.194912Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-07-18T06:29:53.195061Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-07-18T06:29:53.195193Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-07-18T06:29:53.195343Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-07-18T06:29:53.195469Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-07-18T06:29:53.195595Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-07-18T06:29:53.195721Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-07-18T06:29:53.195854Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-07-18T06:29:53.196017Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-07-18T06:29:53.196164Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-07-18T06:29:53.196299Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-07-18T06:29:53.196436Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-07-18T06:29:53.196586Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-07-18T06:29:53.196748Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-07-18T06:29:53.196900Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-07-18T06:29:53.197142Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-07-18T06:29:53.197400Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-07-18T06:29:53.197623Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-07-18T06:29:53.197799Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-07-18T06:29:53.197943Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-07-18T06:29:53.199085Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-07-18T06:29:53.200484Z 0 [Note] InnoDB: Starting shutdown...
+2023-07-18T06:29:53.303433Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2023-07-18T06:29:53.306256Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 230718  6:29:53
+2023-07-18T06:29:54.374585Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12789595
+2023-07-18T06:29:54.375543Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-07-18T06:29:54.376002Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-07-18T06:29:54.376222Z 0 [Note] Shutting down plugin 'CSV'
+2023-07-18T06:29:54.376414Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-07-18T06:29:54.376543Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-07-18T06:29:54.377229Z 0 [Note] Shutting down plugin 'binlog'
+2023-07-18T06:29:54.383578Z 0 [Note] mysqld: Shutdown complete
+
+2023-07-18T08:20:26.336463Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-07-18T08:20:26.378462Z 0 [Note] mysqld (mysqld 5.7.36-log) starting as process 1 ...
+2023-07-18T08:20:26.429330Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2023-07-18T08:20:26.480851Z 0 [Note] InnoDB: PUNCH HOLE support available
+2023-07-18T08:20:26.483867Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2023-07-18T08:20:26.484171Z 0 [Note] InnoDB: Uses event mutexes
+2023-07-18T08:20:26.484508Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2023-07-18T08:20:26.484855Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-07-18T08:20:26.485165Z 0 [Note] InnoDB: Using Linux native AIO
+2023-07-18T08:20:26.493706Z 0 [Note] InnoDB: Number of pools: 1
+2023-07-18T08:20:26.498593Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2023-07-18T08:20:26.502737Z 0 [ERROR] InnoDB: Linux Native AIO interface is not supported on this platform. Please check your OS documentation and install appropriate binary of InnoDB.
+2023-07-18T08:20:26.503300Z 0 [Note] InnoDB: You can disable Linux Native AIO by setting innodb_use_native_aio = 0 in my.cnf
+2023-07-18T08:20:26.503960Z 0 [Warning] InnoDB: Linux Native AIO disabled.
+2023-07-18T08:20:26.509210Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-07-18T08:20:26.600400Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-07-18T08:20:26.699705Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2023-07-18T08:20:26.748498Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-07-18T08:20:26.953828Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-07-18T08:20:26.958781Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-07-18T08:20:27.005312Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-07-18T08:20:27.012361Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-07-18T08:20:27.015416Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-07-18T08:20:27.033385Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 12789595
+2023-07-18T08:20:27.046384Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-07-18T08:20:27.050017Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2023-07-18T08:20:27.106138Z 0 [Note] InnoDB: Buffer pool(s) load completed at 230718  8:20:27
+2023-07-18T08:20:27.161394Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2023-07-18T08:20:27.161633Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2023-07-18T08:20:27.161866Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T08:20:27.162028Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2023-07-18T08:20:27.204655Z 0 [Warning] CA certificate ca.pem is self signed.
+2023-07-18T08:20:27.221287Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2023-07-18T08:20:27.227966Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+2023-07-18T08:20:27.228852Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2023-07-18T08:20:27.229468Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-07-18T08:20:27.234844Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-07-18T08:20:27.377439Z 0 [Note] Failed to start slave threads for channel ''
+2023-07-18T08:20:27.441058Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-07-18T08:20:27.444982Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.36-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2023-07-18T08:21:49.910697Z 2 [Note] Unknown database 'canal_manager'
+2023-07-18T08:27:03.972490Z 7 [Note] Aborted connection 7 to db: 'unconnected' user: 'canal' host: '172.19.0.6' (Got an error reading communication packets)
+2023-07-18T08:27:04.120829Z 8 [Note] Start binlog_dump to master_thread_id(8) slave_server(1779630086), pos(mysql-bin.000004, 13183)

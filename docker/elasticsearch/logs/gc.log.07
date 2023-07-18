@@ -1,0 +1,5 @@
+[2023-07-17T05:40:36.359+0000][1][gc] Using Concurrent Mark Sweep
+[2023-07-17T05:40:36.361+0000][1][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2023-07-17T05:40:36.758+0000][1][safepoint    ] Safepoint "EnableBiasedLocking", Time since last: 274584083 ns, Reaching safepoint: 1564875 ns, At safepoint: 668792 ns, Total: 2233667 ns
+[2023-07-17T05:40:36.777+0000][1][safepoint    ] Safepoint "RevokeBias", Time since last: 17878041 ns, Reaching safepoint: 189167 ns, At safepoint: 742125 ns, Total: 931292 ns
+[2023-07-17T05:40:36.867+0000][1][safepoint    ] Safepoint "Deoptimize", Time since last: 88421208 ns, Reaching safepoint: 541875 ns, At safepoint: 1421667 ns, Total: 1963542 ns

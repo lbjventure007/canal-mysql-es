@@ -31,7 +31,7 @@ func main() {
 
 	// 192.168.199.17 替换成你的canal server的地址
 	// example 替换成-e canal.destinations=example 你自己定义的名字
-	connector := client.NewSimpleCanalConnector("192.168.199.17", 11111, "", "", "example", 60000, 60*60*1000)
+	connector := client.NewSimpleCanalConnector("localhost", 11111, "", "", "example", 60000, 60*60*1000)
 	err := connector.Connect()
 	if err != nil {
 		log.Println(err)
@@ -51,7 +51,7 @@ func main() {
 	//	4.  canal schema下的一张表：canal\\.test1
 	//  5.  多个规则组合使用：canal\\..*,mysql.test1,mysql.test2 (逗号分隔)
 
-	err = connector.Subscribe(".*\\..*")
+	err = connector.Subscribe(".*")
 	if err != nil {
 		log.Println(err)
 		os.Exit(1)
@@ -59,7 +59,8 @@ func main() {
 
 	for {
 
-		message, err := connector.Get(100, nil, nil)
+		message, err := connector.Get(2, nil, nil)
+		fmt.Println(err)
 		if err != nil {
 			log.Println(err)
 			os.Exit(1)

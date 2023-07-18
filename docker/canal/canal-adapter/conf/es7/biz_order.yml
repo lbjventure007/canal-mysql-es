@@ -1,0 +1,8 @@
+dataSourceKey: defaultDS
+destination: example
+groupId: g1
+esMapping:
+  _index: test
+  _id: id
+  sql: "select t.id, t.name from test t"
+  commitBatch: 1
