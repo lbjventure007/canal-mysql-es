@@ -14,3 +14,12 @@
 #### 注意 canal-server下到配置文件 canal_local.properties  和canal.properties 的值
 canal.admin.passwd = 6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9 是密码的password("你的密码")
 可以在mysql里面 使用 select password("你的密码");查看密码 这里的密码是123456的加密结果，实际改成你们自己设置的
+
+
+
+### docker目录下面  执行docker-compose up 先拉期镜像 创建容器运行
+
+### 可以在samples目录下使用go查看mysql增加删除修改 也可以在 kibana上查看
+
+### 搭建的mysql 5.7
+### es 7.5  kibana 7.5
